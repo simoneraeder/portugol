@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    real horas_normais
+    real horas_extras
+   inteiro salario_total
+
+    escreva("Digite o número de horas normais trabalhadas no ano:")
+    leia (horas_normais)
+
+    escreva("Digite o número de horas extras trabalhadas no ano:")
+    leia(horas_extras)
+
+    salario_total = (horas_normais*10) + (horas_extras*15)
+
+    escreva("Seu salário anual é de R$ ", salario_total)
+  }
+}
